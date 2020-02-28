@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4888501714916410281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4888501714916410280}
+  - component: {fileID: 4888501714916410283}
+  m_Layer: 0
+  m_Name: Enemy Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4888501714916410280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4888501714916410281}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4888501714916410283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4888501714916410281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87131d248e3bb914aa065df9b49e4569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveConfigs:
+  - {fileID: 11400000, guid: 4e8140c2ca88ea54b842851ebe2f22b2, type: 2}
+  - {fileID: 11400000, guid: 4756a219aa4737e4b91fa2d576de8ef7, type: 2}
+  - {fileID: 11400000, guid: 5b0cfa7a636d1094f9ee1736dd1b39bd, type: 2}
+  - {fileID: 11400000, guid: c07cdee19163a3d44b96f86bd414af92, type: 2}
+  - {fileID: 11400000, guid: ff4c7b340915d0349b846f107e3b850d, type: 2}
+  - {fileID: 11400000, guid: e84ee5fd098e9b447b1e19e1c0437f1f, type: 2}
+  - {fileID: 11400000, guid: 75cc4d2d4a2af754187a06949f15dbac, type: 2}
+  - {fileID: 11400000, guid: 2b133657bf421d840932e3a0a4d1cf00, type: 2}
+  - {fileID: 11400000, guid: 962a5b60c4a25764281e667a27d18c93, type: 2}
+  startingWave: 0
+  looping: 0
